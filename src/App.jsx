@@ -11,15 +11,15 @@ import './App.css'
 function App() {
   const [candidate, setCandidate] = useState({
     general: {
-      name: "",
-      mobile: "",
-      email: ""
+      name: "Jake Epping",
+      mobile: "22-11-63",
+      email: "jake.epping@king.com"
     },
     experience: [
-      { id: crypto.randomUUID(), company: "", position: "",responsibilities:"", from: "", to: "" }
+      { id: crypto.randomUUID(), company: "Lisbon High School", position: "English Teacher",responsibilities:"full time teacing of high school students", from: "2011", to: "2017" }
     ],
     education: [
-      { id: crypto.randomUUID(), school: "", degree: "", from: "", to: "" }
+      { id: crypto.randomUUID(), school: "Oxford University", degree: "Bachelor of Arts in English Literature", from: "2007", to: "2010" }
     ]
   });
 
